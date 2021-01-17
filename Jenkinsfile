@@ -5,7 +5,7 @@ pipeline{
             steps {
                 bat 'npm install'
                 bat 'type nul > .env'
-                bat 'echo REACT_APP_SECRET_NAME=HARSHVARDHAN> .env'
+                bat 'echo REACT_APP_SECRET_NAME=HARSH VARDHAN BAHREE> .env'
                 bat 'npm run build'
             }
         }
